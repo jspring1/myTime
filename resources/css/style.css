@@ -17,6 +17,7 @@ h1 {}
 .navigation {
 	display: inline-flex;
 	justify-content: space-around;
+	margin: 5px;
 }
 
 a {

@@ -1,24 +1,31 @@
-h1 {}
+h1 {
+}
 
 .header {
 	display: flex;
-	width: 100%;
-	border-bottom: 1px solid black; 
+	width: 100%; 
 	font-family: verdana;
 	font-size: 14px;
 	font-weight: bold;
+	border-bottom: 1px solid black; 
+	padding: 3px;
+	z-index: fixed;
 }
 
 .logo {
 	color: mediumAquamarine;
 	display: inline-flex;
-	font-size: 14px;
+	font-size: 8px;
+	padding-top: 10px;
+	margin-top: 2px;
+	margin-bottom: 1px;
+	
 }
 
 .navigation {
 	display: inline-flex;
-	display: 
-	
+	margin: 8px;
+    padding-left: 50px; 
 }
 
 a {
@@ -28,4 +35,18 @@ a {
 .navigation li {
 	display: inline-block;
 	
+}
+.img {
+	padding: 10px;
+	flex: auto;
+}
+
+h2 {
+	font-family: verdana;
+	display: inline-block;
+	display: bold;
+}
+
+.rust {
+	display: inline-block;
 }
